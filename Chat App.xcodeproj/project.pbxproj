@@ -13,6 +13,9 @@
 		C5AA096E295347E700A8DC85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AA096D295347E700A8DC85 /* Preview Assets.xcassets */; };
 		C5AA097629535A5100A8DC85 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA097529535A5100A8DC85 /* TitleRow.swift */; };
 		C5AA09792953615E00A8DC85 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA09782953615E00A8DC85 /* Message.swift */; };
+		C5AA097B2953637700A8DC85 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA097A2953637700A8DC85 /* MessageBubble.swift */; };
+		C5AA097D295479EF00A8DC85 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA097C295479EF00A8DC85 /* Extensions.swift */; };
+		C5AA097F29547B6100A8DC85 /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA097E29547B6100A8DC85 /* MessageField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		C5AA096D295347E700A8DC85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5AA097529535A5100A8DC85 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 		C5AA09782953615E00A8DC85 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C5AA097A2953637700A8DC85 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		C5AA097C295479EF00A8DC85 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C5AA097E29547B6100A8DC85 /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 				C5AA097429535A2D00A8DC85 /* Components */,
 				C5AA096A295347E700A8DC85 /* Assets.xcassets */,
 				C5AA096C295347E700A8DC85 /* Preview Content */,
+				C5AA097C295479EF00A8DC85 /* Extensions.swift */,
 			);
 			path = "Chat App";
 			sourceTree = "<group>";
@@ -77,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				C5AA097529535A5100A8DC85 /* TitleRow.swift */,
+				C5AA097A2953637700A8DC85 /* MessageBubble.swift */,
+				C5AA097E29547B6100A8DC85 /* MessageField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -160,7 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5AA0969295347E600A8DC85 /* ContentView.swift in Sources */,
+				C5AA097D295479EF00A8DC85 /* Extensions.swift in Sources */,
 				C5AA09792953615E00A8DC85 /* Message.swift in Sources */,
+				C5AA097F29547B6100A8DC85 /* MessageField.swift in Sources */,
+				C5AA097B2953637700A8DC85 /* MessageBubble.swift in Sources */,
 				C5AA0967295347E600A8DC85 /* Chat_AppApp.swift in Sources */,
 				C5AA097629535A5100A8DC85 /* TitleRow.swift in Sources */,
 			);
