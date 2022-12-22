@@ -19,6 +19,7 @@
 		C5AA098129548A7000A8DC85 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5AA098029548A7000A8DC85 /* GoogleService-Info.plist */; };
 		C5AA098429548B7D00A8DC85 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C5AA098329548B7D00A8DC85 /* FirebaseFirestore */; };
 		C5AA098629548B7D00A8DC85 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C5AA098529548B7D00A8DC85 /* FirebaseFirestoreSwift */; };
+		C5AA09882954902400A8DC85 /* MessagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AA09872954902400A8DC85 /* MessagesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		C5AA097C295479EF00A8DC85 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C5AA097E29547B6100A8DC85 /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 		C5AA098029548A7000A8DC85 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5AA09872954902400A8DC85 /* MessagesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				C5AA097429535A2D00A8DC85 /* Components */,
 				C5AA096A295347E700A8DC85 /* Assets.xcassets */,
 				C5AA096C295347E700A8DC85 /* Preview Content */,
+				C5AA09872954902400A8DC85 /* MessagesManager.swift */,
 			);
 			path = "Chat App";
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				C5AA0969295347E600A8DC85 /* ContentView.swift in Sources */,
 				C5AA097D295479EF00A8DC85 /* Extensions.swift in Sources */,
 				C5AA09792953615E00A8DC85 /* Message.swift in Sources */,
+				C5AA09882954902400A8DC85 /* MessagesManager.swift in Sources */,
 				C5AA097F29547B6100A8DC85 /* MessageField.swift in Sources */,
 				C5AA097B2953637700A8DC85 /* MessageBubble.swift in Sources */,
 				C5AA0967295347E600A8DC85 /* Chat_AppApp.swift in Sources */,
